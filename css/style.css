@@ -1,0 +1,320 @@
+/*
+Theme Name: Salient Child Theme
+Description: This is a custom child theme for Salient
+Theme URI:   https://themeforest.net/item/salient-responsive-multipurpose-theme/4363266
+Author: ThemeNectar
+Author URI:  https://themeforest.net/user/themenectar
+Template: salient
+Version: 1.0
+*/
+
+/* dWise Typography */
+html { font-size: 62.5%!important; }
+body, .footer p, .footer a, .footer { 
+	font-size: 1.75rem!important; 
+	line-height: 2.75rem!important;
+}
+#top nav > ul > li > a , .nectar-button span {
+	font-size: 1.6rem!important; 
+	line-height: 2.5rem!important;
+}
+@media (max-width: 1000px) {
+	html { font-size: 68%!important; }
+}
+@media (max-width: 690px) {
+	html { font-size: 70%!important; }
+	html body h1, html body .vc_column-inner .wpb_wrapper h1.vc_custom_heading {
+		font-size: 3.5rem!important;   
+		line-height: 4.5rem!important; 
+		margin-bottom: 3rem;
+	}
+	html body h2, html body .vc_column-inner .wpb_wrapper h2.vc_custom_heading {
+		font-size: 2.75rem!important;   
+		line-height: 3.75rem!important; 
+		margin-bottom: 3rem;
+	}
+	html body h3, html body .vc_column-inner .wpb_wrapper h3.vc_custom_heading {
+		font-size: 2rem!important; 
+		line-height: 3rem!important; 
+		margin-bottom: 2rem;
+	}
+	html body h4, html body .vc_column-inner .wpb_wrapper h4.vc_custom_heading {
+		font-size: 2rem!important; 
+		line-height: 2.5rem!important;
+		margin-bottom: 1.5rem;
+	}
+}
+html body h1, html body .wpb_wrapper h1.vc_custom_heading {
+    font-size: 4rem!important;   
+	line-height: 4.75rem!important; 
+	letter-spacing: 1.15px!important; 
+	font-weight: 900!important;
+	margin-bottom: 1rem;
+	color: #ec662c!important;
+}
+html body h2, html body .wpb_wrapper h2.vc_custom_heading {
+    font-size: 2.25rem!important;
+    line-height: 2.75rem!important;
+    letter-spacing: 1.15px!important;
+    font-weight: 500!important;
+    margin-bottom: 0rem;
+	text-transform: uppercase!important;
+}
+
+html body h3, html body .wpb_wrapper h3.vc_custom_heading {
+    font-size: 2rem!important; 
+	line-height: 3.25rem!important; 
+	letter-spacing: 1.15px!important; 
+	font-weight: 700!important;
+	margin-bottom: 0rem;
+}
+html body h4, html body .wpb_wrapper h4.vc_custom_heading {
+    font-size: 2.25rem!important; 
+	line-height: 2.75rem!important;
+	font-weight: 600!important;
+	margin-bottom: 1.5rem;
+	color: #ec662c!important;
+}
+html body h5, html body .wpb_wrapper h5.vc_custom_heading {
+    font-size: 2rem!important; 
+	line-height: 2.5rem!important;
+	letter-spacing: 1.15px!important; 
+	font-weight: 600!important;
+}
+
+/* dWise Material row padding */
+.material .row > .wpb_row  {
+    padding-top: 10rem !important;
+    padding-bottom: 10rem !important;
+}
+.material .row  .row-20rem {
+    padding-top: 20rem !important;
+    padding-bottom: 20rem !important;
+}
+.material .row  .row-30rem {
+    padding-top: 30rem !important;
+    padding-bottom: 30rem !important;
+}
+.material .row  .row-0rem {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+.material .row  .row-0rem-top {     
+	padding-top: 0rem !important;
+    padding-bottom: 10rem !important;
+}
+.material .row  .row-0rem-bottom {     
+	padding-top: 10rem !important;
+    padding-bottom: 0rem !important;
+}
+.material .row  .row-5rem {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+.material .row  .row-0rem-top-small {     
+	padding-top: 0rem !important;
+    padding-bottom: 30px !important;
+}
+
+.material .row  .row-0rem-small {     
+	padding-top: 10rem !important;
+    padding-bottom: 30px !important;
+}
+
+/* dWise Material row padding portfolio */
+.material .row #portfolio-extra > .wpb_row  {
+    padding-top: 10rem !important;
+    padding-bottom: 10rem !important;
+}
+.material .row #portfolio-extra > .wpb_row.row-20rem {
+    padding-top: 20rem !important;
+    padding-bottom: 20rem !important;
+}
+.material .row #portfolio-extra > .wpb_row.row-30rem {
+    padding-top: 30rem !important;
+    padding-bottom: 30rem !important;
+}
+.material .row #portfolio-extra > .wpb_row.row-0rem {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+.material .row  #portfolio-extra > .wpb_row.row-0rem-top {     
+	padding-top: 0rem !important;
+    padding-bottom: 10rem !important;
+}
+.material .row  #portfolio-extra > .wpb_row.row-0rem-bottom {     
+	padding-top: 10rem !important;
+    padding-bottom: 0rem !important;
+}
+.material .row  #portfolio-extra > .wpb_row.row-5rem {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+.material .row  #portfolio-extra .row-0rem-top-small {     
+	padding-top: 0rem !important;
+    padding-bottom: 30px !important;
+}
+
+.material .row  #portfolio-extra .row-0rem-small {     
+	padding-top: 10rem !important;
+    padding-bottom: 30px !important;
+}
+/* Header */
+#header-space, #header-outer { height: 0px!important; }
+/*menu*/
+#sfm-sidebar .sfm-widget-area {
+    margin-top: 50px;
+}
+
+.widget_text h1 {
+	color: #65666b !important;
+	line-height: 2.25 !important; 
+    font-size: 0.85em !important;
+}
+.textwidget p {
+	color: #ffffff !important;
+    line-height: 3rem !important; 
+    font-size: 2.25rem !important;
+	padding-bottom: 15px!important;
+}
+.textwidget { 
+	padding-top: 15px!important;
+}
+.sfm-rollback { cursor: initial!important; }
+
+#sfm-sidebar [class*="sfm-icon-"] a, .sfm-view-level-custom::before {
+    line-height: 25px !important;
+
+    font-size: 25px !important;
+}
+
+	
+
+#top .col.span_3 {
+    right: 0px!important;
+    position: absolute!important;
+}
+
+html #sfm-sidebar .sfm-menu li a, #sfm-sidebar .sfm-chapter, #sfm-sidebar .widget-area, .sfm-search-form input {
+    padding-left: 45px !important; 
+	z-index: 500!important;
+}
+#sfm-sidebar .sfm-menu li a {
+	padding: 15px !important;
+}
+
+
+#sfm-sidebar .sfm-widget-area { 
+	padding-left: 45px!important; 
+	padding-top: 0px!important; 
+	padding-right: 0px!important; 
+	padding-bottom: 0px!important; 
+	margin-top: 15px!important; 
+}
+.sfm-navicon-button {
+    top: 200px!important;
+}
+.sfm-navicon-button:after {
+    top: 65%!important;
+}
+.sfm-navicon-button.sf_label_default {
+    height: 110px!important;
+}
+.sfm-navicon {
+	top: 40%!important;
+}
+.sfm-label-metro .sfm-navicon-button {
+    background: #816652!important;
+}
+.sfm-logo img {
+    max-width: 60%;
+}
+.sfm-logo { text-align: left!important; padding-left: 45px!important; }
+
+@media (max-width: 1000px){
+	.sfm-logo img {
+		position: initial;
+	}
+}
+
+/* Home */
+
+.bruin p, .bruin h2, .bruin h3, .bruin li { color: #f9f9f9!important; }
+.bruin h3 { 
+	text-align: center !important;
+	text-transform: uppercase !important;
+}
+
+body[data-col-gap="30px"] .wpb_row:not(.full-width-section):not(.full-width-content), body .container-wrap .wpb_row[data-column-margin="30px"]:not(.full-width-section):not(.full-width-content) {
+    margin-bottom: 0px!important;
+}
+
+/* Achtergrond */
+.container-wrap {
+    background: url(../images/Kempas-Hout-2.jpg)!important;
+	background-size: cover!important;
+	    background-attachment: fixed!important;
+}
+.container-wrap:after {
+    content: "";
+    position: absolute!important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1d1d1d!important;
+    opacity: 0.96;
+}
+
+/* Portfolio */
+.row.project-title { display: none!important; }
+.work-info .vert-center p {
+    display: none!important;
+}
+
+/* Achtergrond column */
+html body .vc_row-fluid .wpb_column .column-image-bg-wrap[data-bg-pos="center bottom"] .column-image-bg {
+    background-position: center bottom !important;
+}
+html body .vc_row-fluid .wpb_column .column-image-bg-wrap[data-bg-pos="center top"] .column-image-bg {
+    background-position: center top !important;
+}
+html body .vc_row-fluid .wpb_column .column-image-bg-wrap[data-bg-pos="center center"] .column-image-bg {
+    background-position: center center !important;
+}
+/* .single-portfolio .vc_column-inner .inner_row .divider {
+    height: 240px!important;
+}
+ */
+@media only screen and (min-width: 1000px){
+	body:not([data-header-format="left-header"]) #full_width_portfolio .background-top.parallax_section .row-bg[data-parallax-speed="slow"]:not([data-parallax-speed="fixed"]) {
+		margin-bottom: 0% !important;
+	}
+	body:not([data-header-format="left-header"]) #full_width_portfolio .background-middle.parallax_section .row-bg[data-parallax-speed="slow"]:not([data-parallax-speed="fixed"]) {
+		margin-bottom: 13.5% !important;
+	}
+	body:not([data-header-format="left-header"]) #full_width_portfolio .background-bottom.parallax_section .row-bg[data-parallax-speed="slow"]:not([data-parallax-speed="fixed"]) {
+		margin-bottom: 27% !important;
+	}
+}
+@media(min-width:1000px){
+	.mobiel { display: none!important; }
+}
+@media(max-width:1000px){
+	.desktop { display: none!important; }
+}
+
+@media (max-width: 480px){
+	.divider {
+    	height: 0px !important;
+	}
+	#footer-outer { display: none !important; }
+	.column-image-bg-wrap ~ .column-bg-overlay-wrap ~ .wpb_wrapper > .divider-wrap .divider {
+		height: 230px !important;
+	}
+	html body h2, html body .vc_column-inner .wpb_wrapper h2.vc_custom_heading {
+		font-size: 2rem!important;
+		line-height: 2.65rem!important;
+	}
+}
